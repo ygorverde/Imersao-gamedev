@@ -20,7 +20,7 @@ function preload() {
     trollSoundDash = createAudio('sons/trollSoundDash.mp3')
     slimeDash = createAudio('sons/slimeDash.mp3')
     somRun = createAudio('sons/run.mp3');
-    efeitoArremesso = loadSound('sons/arremessoShuriken.mp3');
+    efeitoArremesso = loadSound('sons/arremessoshuriken.mp3');
     somPulo = loadSound('sons/somPulo.mp3');
     acerto = loadSound('sons/acerto.mp3');
 
