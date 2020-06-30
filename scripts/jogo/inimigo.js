@@ -22,11 +22,6 @@ super(matriz, imagem, x,variacaoY, largura, altura, larguraSprite, alturaSprite)
 
   baleado(bullet) {
     noFill();
-    rect(this.x,
-      this.y,
-      this.largura,
-      this.altura);
-
     const precisao = .7
     const colisao = collideRectRect(
       this.x,
