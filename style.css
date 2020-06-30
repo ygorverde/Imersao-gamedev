@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.botao-tela-inicial {
+  font-family: 'Luckiest Guy', cursive;
+  padding: 1rem 1.25rem;
+  font-size: 1.5rem;
+  letter-spacing: .25rem;
+  /* box-shadow: 2px 2px 0px 1px #4a4c69; */
+  text-transform: uppercase;
+  background-color: #000000;
+  border: none;
+  border-radius: .75rem;
+  color: #fff;
+}
+
+.botao-tela-inicial:hover{
+  background-color: #ff0004;
+  box-shadow: 2px 2px 0px 1px #000000;
+  transition: 2s;
+}
